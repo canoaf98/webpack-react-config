@@ -4,7 +4,10 @@
   "description": "webpack base optimized scripts for react js projects",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "build:dev": "webpack-dev-server --config ./webpack.dev.config.js",
+    "build:dll": "webpack --config ./webpack.dll.config.js --mode production",
+    "build": "webpack --config ./webpack.config.js --mode production"
   },
   "keywords": [
     "react",
