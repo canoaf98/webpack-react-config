@@ -1,0 +1,16 @@
+{
+  "name": "webpack-react-config",
+  "version": "1.0.0",
+  "description": "webpack base optimized scripts for react js projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "react",
+    "wepack",
+    "npm"
+  ],
+  "author": "Andresfe98@gmail.com",
+  "license": "MIT"
+}
